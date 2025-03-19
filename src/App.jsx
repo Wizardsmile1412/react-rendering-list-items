@@ -1,10 +1,12 @@
 import "./App.css";
-
+import Card from "./components/Card";
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-blue-100">
       <section className="movie-list-section">
-        {/* Render Movie Lists Here */}
+        
+        <Card/>
+       
       </section>
     </div>
   );

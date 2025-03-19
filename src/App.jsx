@@ -1,11 +1,18 @@
 import "./App.css";
+import React from 'react';
+import MovieList from './components/MovieList';
 
 function App() {
+  const appStyle = {
+    width: '100%',
+    minHeight: '100vh',
+    margin: 0,
+    padding: 0
+  };
+
   return (
-    <div className="App">
-      <section className="movie-list-section">
-        {/* Render Movie Lists Here */}
-      </section>
+    <div style={appStyle}>
+      <MovieList />
     </div>
   );
 }
